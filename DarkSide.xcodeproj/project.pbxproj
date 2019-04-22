@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D4389DC211651C6008E7351 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4389DB211651C6008E7351 /* TabBarController.m */; };
+		3D4389DF2116523C008E7351 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4389DE2116523C008E7351 /* NavigationController.m */; };
+		3D4389E221165352008E7351 /* TabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4389E121165352008E7351 /* TabBarItem.m */; };
+		3D56021721138FB600AF9BF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D56021621138FB600AF9BF2 /* AppDelegate.m */; };
+		3D56021A21138FB600AF9BF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D56021921138FB600AF9BF2 /* ViewController.m */; };
+		3D56021D21138FB600AF9BF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D56021B21138FB600AF9BF2 /* Main.storyboard */; };
+		3D56021F21138FB700AF9BF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D56021E21138FB700AF9BF2 /* Assets.xcassets */; };
+		3D56022221138FB700AF9BF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D56022021138FB700AF9BF2 /* LaunchScreen.storyboard */; };
+		3D56022521138FB700AF9BF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D56022421138FB700AF9BF2 /* main.m */; };
+		3D5602332113900B00AF9BF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5602322113900B00AF9BF2 /* AppDelegate.m */; };
+		3D5602362113900B00AF9BF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5602352113900B00AF9BF2 /* ViewController.m */; };
+		3D5602392113900B00AF9BF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5602372113900B00AF9BF2 /* Main.storyboard */; };
+		3D56023B2113900C00AF9BF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D56023A2113900C00AF9BF2 /* Assets.xcassets */; };
+		3D56023E2113900C00AF9BF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D56023D2113900C00AF9BF2 /* main.m */; };
+		B112896C2268547F00D5EF2E /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B112896B2268547F00D5EF2E /* SubViewController.m */; };
+		B112896F2268562500D5EF2E /* SithLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B112896E2268562500D5EF2E /* SithLabel.m */; };
+		B116ED72226A078B008C3CDE /* SithSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = B116ED71226A078B008C3CDE /* SithSwitch.m */; };
+		B119BF4021CA2E59001D1C25 /* SithView.m in Sources */ = {isa = PBXBuildFile; fileRef = B119BF3F21CA2E59001D1C25 /* SithView.m */; };
+		B119BF4121CA2E5F001D1C25 /* SithView.m in Sources */ = {isa = PBXBuildFile; fileRef = B119BF3F21CA2E59001D1C25 /* SithView.m */; };
+		B1EC8DE021CD321E0076955B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EC8DDF21CD321E0076955B /* AppDelegate.m */; };
+		B1EC8DE321CD321E0076955B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EC8DE221CD321E0076955B /* ViewController.m */; };
+		B1EC8DE521CD321F0076955B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1EC8DE421CD321F0076955B /* Assets.xcassets */; };
+		B1EC8DE821CD321F0076955B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1EC8DE621CD321F0076955B /* Main.storyboard */; };
+		B1EC8DEB21CD321F0076955B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EC8DEA21CD321F0076955B /* main.m */; };
+		B1EC8DF221CD36F50076955B /* Window.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EC8DF121CD36F50076955B /* Window.m */; };
+		B1EC8DF521CD37340076955B /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EC8DF421CD37340076955B /* View.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D4389DA211651C6008E7351 /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		3D4389DB211651C6008E7351 /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		3D4389DD2116523C008E7351 /* NavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		3D4389DE2116523C008E7351 /* NavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		3D4389E021165352008E7351 /* TabBarItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarItem.h; sourceTree = "<group>"; };
+		3D4389E121165352008E7351 /* TabBarItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarItem.m; sourceTree = "<group>"; };
+		3D56021221138FB600AF9BF2 /* DarkSide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkSide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D56021521138FB600AF9BF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D56021621138FB600AF9BF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D56021821138FB600AF9BF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D56021921138FB600AF9BF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D56021C21138FB600AF9BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D56021E21138FB700AF9BF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D56022121138FB700AF9BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D56022321138FB700AF9BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D56022421138FB700AF9BF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D56022F2113900B00AF9BF2 /* DarkSide TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DarkSide TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5602312113900B00AF9BF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D5602322113900B00AF9BF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D5602342113900B00AF9BF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D5602352113900B00AF9BF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D5602382113900B00AF9BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D56023A2113900C00AF9BF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D56023C2113900C00AF9BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D56023D2113900C00AF9BF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DCBEF972113990C0081B824 /* CarPlay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CarPlay.framework; path = System/Library/Frameworks/CarPlay.framework; sourceTree = SDKROOT; };
+		B112896A2268547F00D5EF2E /* SubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
+		B112896B2268547F00D5EF2E /* SubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
+		B112896D2268562500D5EF2E /* SithLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SithLabel.h; sourceTree = "<group>"; };
+		B112896E2268562500D5EF2E /* SithLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SithLabel.m; sourceTree = "<group>"; };
+		B116ED70226A078B008C3CDE /* SithSwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SithSwitch.h; sourceTree = "<group>"; };
+		B116ED71226A078B008C3CDE /* SithSwitch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SithSwitch.m; sourceTree = "<group>"; };
+		B119BF3E21CA2E59001D1C25 /* SithView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SithView.h; sourceTree = "<group>"; };
+		B119BF3F21CA2E59001D1C25 /* SithView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SithView.m; sourceTree = "<group>"; };
+		B1EC8DDC21CD321D0076955B /* DarkSideMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkSideMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1EC8DDE21CD321E0076955B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1EC8DDF21CD321E0076955B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B1EC8DE121CD321E0076955B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B1EC8DE221CD321E0076955B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B1EC8DE421CD321F0076955B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1EC8DE721CD321F0076955B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1EC8DE921CD321F0076955B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1EC8DEA21CD321F0076955B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1EC8DEC21CD321F0076955B /* DarkSideMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DarkSideMac.entitlements; sourceTree = "<group>"; };
+		B1EC8DF021CD36F50076955B /* Window.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		B1EC8DF121CD36F50076955B /* Window.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Window.m; sourceTree = "<group>"; };
+		B1EC8DF321CD37340076955B /* View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		B1EC8DF421CD37340076955B /* View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D56020F21138FB600AF9BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D56022C2113900B00AF9BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EC8DD921CD321D0076955B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D56020921138FB600AF9BF2 = {
+			isa = PBXGroup;
+			children = (
+				3D56021421138FB600AF9BF2 /* DarkSide */,
+				3D5602302113900B00AF9BF2 /* DarkSide TV */,
+				B1EC8DDD21CD321E0076955B /* DarkSideMac */,
+				3D56021321138FB600AF9BF2 /* Products */,
+				3DCBEF962113990C0081B824 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D56021321138FB600AF9BF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D56021221138FB600AF9BF2 /* DarkSide.app */,
+				3D56022F2113900B00AF9BF2 /* DarkSide TV.app */,
+				B1EC8DDC21CD321D0076955B /* DarkSideMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D56021421138FB600AF9BF2 /* DarkSide */ = {
+			isa = PBXGroup;
+			children = (
+				3D56022321138FB700AF9BF2 /* Info.plist */,
+				3D56022421138FB700AF9BF2 /* main.m */,
+				3D56021521138FB600AF9BF2 /* AppDelegate.h */,
+				3D56021621138FB600AF9BF2 /* AppDelegate.m */,
+				3D56021821138FB600AF9BF2 /* ViewController.h */,
+				3D56021921138FB600AF9BF2 /* ViewController.m */,
+				B1D25CAD22678A87005D7C85 /* Resources */,
+				B1D25CAE22678AB6005D7C85 /* Subclasses */,
+			);
+			path = DarkSide;
+			sourceTree = "<group>";
+		};
+		3D5602302113900B00AF9BF2 /* DarkSide TV */ = {
+			isa = PBXGroup;
+			children = (
+				3D5602312113900B00AF9BF2 /* AppDelegate.h */,
+				3D5602322113900B00AF9BF2 /* AppDelegate.m */,
+				3D5602342113900B00AF9BF2 /* ViewController.h */,
+				3D5602352113900B00AF9BF2 /* ViewController.m */,
+				3D5602372113900B00AF9BF2 /* Main.storyboard */,
+				3D56023A2113900C00AF9BF2 /* Assets.xcassets */,
+				3D56023C2113900C00AF9BF2 /* Info.plist */,
+				3D56023D2113900C00AF9BF2 /* main.m */,
+			);
+			path = "DarkSide TV";
+			sourceTree = "<group>";
+		};
+		3DCBEF962113990C0081B824 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCBEF972113990C0081B824 /* CarPlay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1D25CAD22678A87005D7C85 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D56021E21138FB700AF9BF2 /* Assets.xcassets */,
+				3D56022021138FB700AF9BF2 /* LaunchScreen.storyboard */,
+				3D56021B21138FB600AF9BF2 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B1D25CAE22678AB6005D7C85 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				3D4389DA211651C6008E7351 /* TabBarController.h */,
+				3D4389DB211651C6008E7351 /* TabBarController.m */,
+				3D4389DD2116523C008E7351 /* NavigationController.h */,
+				3D4389DE2116523C008E7351 /* NavigationController.m */,
+				3D4389E021165352008E7351 /* TabBarItem.h */,
+				3D4389E121165352008E7351 /* TabBarItem.m */,
+				B119BF3E21CA2E59001D1C25 /* SithView.h */,
+				B119BF3F21CA2E59001D1C25 /* SithView.m */,
+				B112896A2268547F00D5EF2E /* SubViewController.h */,
+				B112896B2268547F00D5EF2E /* SubViewController.m */,
+				B112896D2268562500D5EF2E /* SithLabel.h */,
+				B112896E2268562500D5EF2E /* SithLabel.m */,
+				B116ED70226A078B008C3CDE /* SithSwitch.h */,
+				B116ED71226A078B008C3CDE /* SithSwitch.m */,
+			);
+			path = Subclasses;
+			sourceTree = "<group>";
+		};
+		B1EC8DDD21CD321E0076955B /* DarkSideMac */ = {
+			isa = PBXGroup;
+			children = (
+				B1EC8DDE21CD321E0076955B /* AppDelegate.h */,
+				B1EC8DDF21CD321E0076955B /* AppDelegate.m */,
+				B1EC8DE121CD321E0076955B /* ViewController.h */,
+				B1EC8DE221CD321E0076955B /* ViewController.m */,
+				B1EC8DE421CD321F0076955B /* Assets.xcassets */,
+				B1EC8DE621CD321F0076955B /* Main.storyboard */,
+				B1EC8DE921CD321F0076955B /* Info.plist */,
+				B1EC8DEA21CD321F0076955B /* main.m */,
+				B1EC8DEC21CD321F0076955B /* DarkSideMac.entitlements */,
+				B1EC8DF021CD36F50076955B /* Window.h */,
+				B1EC8DF121CD36F50076955B /* Window.m */,
+				B1EC8DF321CD37340076955B /* View.h */,
+				B1EC8DF421CD37340076955B /* View.m */,
+			);
+			path = DarkSideMac;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D56021121138FB600AF9BF2 /* DarkSide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D56022821138FB700AF9BF2 /* Build configuration list for PBXNativeTarget "DarkSide" */;
+			buildPhases = (
+				3D56020E21138FB600AF9BF2 /* Sources */,
+				3D56020F21138FB600AF9BF2 /* Frameworks */,
+				3D56021021138FB600AF9BF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarkSide;
+			productName = DarkSide;
+			productReference = 3D56021221138FB600AF9BF2 /* DarkSide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D56022E2113900B00AF9BF2 /* DarkSide TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D56023F2113900C00AF9BF2 /* Build configuration list for PBXNativeTarget "DarkSide TV" */;
+			buildPhases = (
+				3D56022B2113900B00AF9BF2 /* Sources */,
+				3D56022C2113900B00AF9BF2 /* Frameworks */,
+				3D56022D2113900B00AF9BF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DarkSide TV";
+			productName = "DarkSide TV";
+			productReference = 3D56022F2113900B00AF9BF2 /* DarkSide TV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1EC8DDB21CD321D0076955B /* DarkSideMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1EC8DEF21CD321F0076955B /* Build configuration list for PBXNativeTarget "DarkSideMac" */;
+			buildPhases = (
+				B1EC8DD821CD321D0076955B /* Sources */,
+				B1EC8DD921CD321D0076955B /* Frameworks */,
+				B1EC8DDA21CD321D0076955B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarkSideMac;
+			productName = DarkSideMac;
+			productReference = B1EC8DDC21CD321D0076955B /* DarkSideMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D56020A21138FB600AF9BF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Егор Меркушев";
+				TargetAttributes = {
+					3D56021121138FB600AF9BF2 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					3D56022E2113900B00AF9BF2 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					B1EC8DDB21CD321D0076955B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 3D56020D21138FB600AF9BF2 /* Build configuration list for PBXProject "DarkSide" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D56020921138FB600AF9BF2;
+			productRefGroup = 3D56021321138FB600AF9BF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D56021121138FB600AF9BF2 /* DarkSide */,
+				3D56022E2113900B00AF9BF2 /* DarkSide TV */,
+				B1EC8DDB21CD321D0076955B /* DarkSideMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D56021021138FB600AF9BF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D56022221138FB700AF9BF2 /* LaunchScreen.storyboard in Resources */,
+				3D56021F21138FB700AF9BF2 /* Assets.xcassets in Resources */,
+				3D56021D21138FB600AF9BF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D56022D2113900B00AF9BF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D56023B2113900C00AF9BF2 /* Assets.xcassets in Resources */,
+				3D5602392113900B00AF9BF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EC8DDA21CD321D0076955B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EC8DE521CD321F0076955B /* Assets.xcassets in Resources */,
+				B1EC8DE821CD321F0076955B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D56020E21138FB600AF9BF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D56021A21138FB600AF9BF2 /* ViewController.m in Sources */,
+				3D4389DC211651C6008E7351 /* TabBarController.m in Sources */,
+				B119BF4021CA2E59001D1C25 /* SithView.m in Sources */,
+				B116ED72226A078B008C3CDE /* SithSwitch.m in Sources */,
+				3D4389DF2116523C008E7351 /* NavigationController.m in Sources */,
+				3D56022521138FB700AF9BF2 /* main.m in Sources */,
+				3D4389E221165352008E7351 /* TabBarItem.m in Sources */,
+				3D56021721138FB600AF9BF2 /* AppDelegate.m in Sources */,
+				B112896C2268547F00D5EF2E /* SubViewController.m in Sources */,
+				B112896F2268562500D5EF2E /* SithLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D56022B2113900B00AF9BF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B119BF4121CA2E5F001D1C25 /* SithView.m in Sources */,
+				3D5602362113900B00AF9BF2 /* ViewController.m in Sources */,
+				3D56023E2113900C00AF9BF2 /* main.m in Sources */,
+				3D5602332113900B00AF9BF2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EC8DD821CD321D0076955B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EC8DF521CD37340076955B /* View.m in Sources */,
+				B1EC8DE321CD321E0076955B /* ViewController.m in Sources */,
+				B1EC8DEB21CD321F0076955B /* main.m in Sources */,
+				B1EC8DE021CD321E0076955B /* AppDelegate.m in Sources */,
+				B1EC8DF221CD36F50076955B /* Window.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D56021B21138FB600AF9BF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D56021C21138FB600AF9BF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D56022021138FB700AF9BF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D56022121138FB700AF9BF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3D5602372113900B00AF9BF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D5602382113900B00AF9BF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1EC8DE621CD321F0076955B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1EC8DE721CD321F0076955B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D56022621138FB700AF9BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D56022721138FB700AF9BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D56022921138FB700AF9BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DarkSide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.egormerkushev.darkside.DarkSide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D56022A21138FB700AF9BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DarkSide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.egormerkushev.darkside.DarkSide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D5602402113900C00AF9BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "DarkSide TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.egormerkushev.darkside.DarkSide-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		3D5602412113900C00AF9BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "DarkSide TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.egormerkushev.darkside.DarkSide-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Release;
+		};
+		B1EC8DED21CD321F0076955B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DarkSideMac/DarkSideMac.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DarkSideMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.egormerkushev.darkside.DarkSideMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B1EC8DEE21CD321F0076955B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DarkSideMac/DarkSideMac.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DarkSideMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.egormerkushev.darkside.DarkSideMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D56020D21138FB600AF9BF2 /* Build configuration list for PBXProject "DarkSide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D56022621138FB700AF9BF2 /* Debug */,
+				3D56022721138FB700AF9BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D56022821138FB700AF9BF2 /* Build configuration list for PBXNativeTarget "DarkSide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D56022921138FB700AF9BF2 /* Debug */,
+				3D56022A21138FB700AF9BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D56023F2113900C00AF9BF2 /* Build configuration list for PBXNativeTarget "DarkSide TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5602402113900C00AF9BF2 /* Debug */,
+				3D5602412113900C00AF9BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1EC8DEF21CD321F0076955B /* Build configuration list for PBXNativeTarget "DarkSideMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1EC8DED21CD321F0076955B /* Debug */,
+				B1EC8DEE21CD321F0076955B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D56020A21138FB600AF9BF2 /* Project object */;
+}
